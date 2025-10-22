@@ -1,0 +1,22 @@
+$primary: red;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.light-gray-header {
+  background: #cb91141a;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.output-screen {
+  min-height: 140px;
+  border-radius: .5rem;
+  background: #2c2410;
+  color: #f5e9c8;
+  font-size: 1.05rem;
+  border: 1px solid #4c3b00;
+}
+
+h1 {
+  color: $primary;
+  font-weight: 700;
+}

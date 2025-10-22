@@ -1,0 +1,27 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/custom.scss css/custom.css",
+    "watch": "sass --watch scss/custom.scss css/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlimbu152/MidTerm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlimbu152/MidTerm/issues"
+  },
+  "homepage": "https://github.com/rlimbu152/MidTerm#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
